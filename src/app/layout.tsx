@@ -1,5 +1,6 @@
 import './globals.css'
 import LenisProvider from '@/components/LenisProvider'
+import WhatsappChatWidget from '@/components/WhatsAppWidget/WhatsAppWidget';
 import localFont from 'next/font/local'
 
 const helveticaNowDisplay = localFont({
@@ -86,6 +87,7 @@ export default function RootLayout({
       >
         <LenisProvider />
         {children}
+        <WhatsappChatWidget/>
       </body>
     </html>
   )

@@ -18,8 +18,7 @@ const WhatsappChatWidget = () => {
         borderRadius: "25",
         marginLeft: "0",
         marginRight: "20",
-        marginBottom: "0",
-        marginTop: "20",
+        marginBottom: "20",
         ctaIconWATI: false,
         position: "right",
       },
@@ -47,7 +46,7 @@ const WhatsappChatWidget = () => {
       if (button instanceof HTMLElement) {
         Object.assign(button.style, {
           position: "fixed",
-          top: "50px",
+          bottom: "20px",
           right: "20px",
           backgroundColor: "black",
           zIndex: "9999",
@@ -57,7 +56,7 @@ const WhatsappChatWidget = () => {
       if (chatBox instanceof HTMLElement) {
         Object.assign(chatBox.style, {
           position: "fixed",
-          top: "110px",
+          bottom: "80px",
           right: "35px",
           height: "30vh",
           zIndex: "9999",
@@ -91,7 +90,7 @@ const WhatsappChatWidget = () => {
       <style jsx global>{`
         .wa-widget-send-button {
           position: fixed !important;
-          top: 50px !important;
+          bottom: 20px !important;
           right: 20px !important;
           background-color: black !important;
           z-index: 9999 !important;
@@ -99,7 +98,7 @@ const WhatsappChatWidget = () => {
 
         .wa-chat-box {
           position: fixed !important;
-          top: 110px !important;
+          bottom: 80px !important;
           right: 35px !important;
           height: 30vh !important;
           justify-content: flex-start !important;
@@ -114,7 +113,7 @@ const WhatsappChatWidget = () => {
         @media (max-width: 768px) {
           .wa-widget-send-button,
           .wa-chat-box {
-            display: none !important;
+            display: block !important;
           }
         }
       `}</style>

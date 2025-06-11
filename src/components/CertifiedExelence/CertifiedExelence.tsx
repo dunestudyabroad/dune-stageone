@@ -19,15 +19,15 @@ const CertifiedExelence = () => {
           <Image src="/CertifiedExelence/6.svg" alt="/CertifiedExelence/1.svg" width={100} height={100} className="w-[15%] lg:h-[30vh]" />
         </div>
         
-          <div className="flex justify-center gap-3 xl:hidden">
-            {rowOne.map((item, index) => {
-              return <Image key={index} src={item} alt={item} width={100} height={100} className="w-[20%] lg:h-[30vh]" />;
-            })}
+          <div className="flex justify-center gap-24 xl:hidden">
+          <Image src="/CertifiedExelence/1.svg" alt="/CertifiedExelence/1.svg" width={100} height={100} className="w-[18%] lg:h-[30vh]" />
+          <Image src="/CertifiedExelence/2.svg" alt="/CertifiedExelence/1.svg" width={100} height={100} className="w-[18%] lg:h-[30vh]" />
+          <Image src="/CertifiedExelence/3.svg" alt="/CertifiedExelence/1.svg" width={100} height={100} className="w-[18%] lg:h-[30vh]" />
           </div>
           <div className="flex justify-center  xl:hidden">
-            {rowTwo.map((item, index) => {
-              return <Image key={index} src={item} alt={item} width={100} height={100} className="w-[20%] lg:h-[30vh] " />;
-            })}
+          <Image src="/CertifiedExelence/4.svg" alt="/CertifiedExelence/1.svg" width={100} height={100} className="w-[40%] lg:h-[30vh]" />
+          <Image src="/CertifiedExelence/5.svg" alt="/CertifiedExelence/1.svg" width={100} height={100} className="w-[15%] mr-2 lg:h-[30vh]" />
+          <Image src="/CertifiedExelence/6.svg" alt="/CertifiedExelence/1.svg" width={100} height={100} className="w-[15%] lg:h-[30vh]" />
           </div>
        
       </div>

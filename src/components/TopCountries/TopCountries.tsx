@@ -31,13 +31,13 @@ const dummyData: dummyData[] = [
     alt: "Statue of Liberty",
   },
   {
-    id: 2,
-    country: "Canada",
-    description: "Immigration-friendly policies, job-focused courses, and post-study work permits.",
-    image: "/TopCountries/countryImages/2.webp",
-    flag: "/TopCountries/flagLogos/2.png",
+    id: 6,
+    country: "United Kingdom",
+    description: "Qualifications recognized worldwide, scholarships, and fee waivers for international students.",
+    image: "/TopCountries/countryImages/6.webp",
+    flag: "/TopCountries/flagLogos/6.png",
     alt: "Golden Gate Bridge",
-    univercities: [{name:"University of Alberta",image:"/TopCountries/university/31.png"},{name:"McGill",image:"/TopCountries/university/32.png"},{name:"University of Toronto",image:"/TopCountries/university/33.png"},{name:"The University of British Columbia",image:"/TopCountries/university/34.png"},{name:"Youk U",image:"/TopCountries/university/35.png"}]
+    univercities: [{name:"University of Glasgow",image:"/TopCountries/university/41.png"},{name:"University of Birmingham",image:"/TopCountries/university/42.png"},{name:" Kings College London ",image:"/TopCountries/university/43.png"},{name:"The University of Manchester 1824",image:"/TopCountries/university/44.png"},{name:"The University of Edinburgh",image:"/TopCountries/university/45.png"}]
   },
   {
     id: 3,
@@ -47,6 +47,34 @@ const dummyData: dummyData[] = [
     flag: "/TopCountries/flagLogos/3.png",
     alt: "New York Skyline",
     univercities: [{name:"University of Sydney",image:"/TopCountries/university/36.png"},{name:"UNSW Sydney",image:"/TopCountries/university/37.png"},{name:"The university of melbourne",image:"/TopCountries/university/38.png"},{name:"The University of Queensland Australia",image:"/TopCountries/university/39.png"},{name:"Monash University",image:"/TopCountries/university/40.png"}]
+  },
+  
+   {
+     id: 7,
+     country: "Ireland",
+     description: "High standard of education, vibrant cultural scene, and post-study work opportunities.",
+     image: "/TopCountries/countryImages/7.webp",
+     flag: "/TopCountries/flagLogos/7.png",
+     alt: "New York Skyline",
+     univercities: [{name:"University of Southern Maine",image:"/TopCountries/university/1.png"},{name:" DCU Dublin City University",image:"/TopCountries/university/2.png"},{name:"Trinity College Dublin",image:"/TopCountries/university/3.png"},{name:"University College Cork",image:"/TopCountries/university/4.png"},{name:"UCD Dublin",image:"/TopCountries/university/5.png"}]
+   },
+  {
+    id: 2,
+    country: "Canada",
+    description: "Immigration-friendly policies, job-focused courses, and post-study work permits.",
+    image: "/TopCountries/countryImages/2.webp",
+    flag: "/TopCountries/flagLogos/2.png",
+    alt: "Golden Gate Bridge",
+    univercities: [{name:"University of Alberta",image:"/TopCountries/university/31.png"},{name:"McGill",image:"/TopCountries/university/32.png"},{name:"University of Toronto",image:"/TopCountries/university/33.png"},{name:"The University of British Columbia",image:"/TopCountries/university/34.png"},{name:"Youk U",image:"/TopCountries/university/35.png"}]
+  },
+  {
+    id: 10,
+    country: "Germany",
+    description: "Strong economy, free or low-cost education, and opportunities in engineering, technology, and research.",
+    image: "/TopCountries/countryImages/10.webp",
+    flag: "/TopCountries/flagLogos/10.png",
+    alt: "Golden Gate Bridge",
+    univercities: [{name:"Frankfurt School of Finance & Management",image:"/TopCountries/university/11.png"},{name:"University of Mannheim",image:"/TopCountries/university/12.png"},{name:"Rwthaachen University",image:"/TopCountries/university/13.png"},{name:"Technical university of Munich",image:"/TopCountries/university/14.png"},{name:"Georg august university",image:"/TopCountries/university/15.png"}]
   },
   {
     id: 4,
@@ -67,24 +95,6 @@ const dummyData: dummyData[] = [
     univercities: [{name:"Politecnico di Milano",image:"/TopCountries/university/56.png"},{name:"Sapienza University of Rome",image:"/TopCountries/university/57.png"},{name:"University of Bologna",image:"/TopCountries/university/58.png"},{name:"University of Padua",image:"/TopCountries/university/59.png"},{name:"University of Milan",image:"/TopCountries/university/60.png"}]
   },
   {
-    id: 6,
-    country: "United Kingdom",
-    description: "Qualifications recognized worldwide, scholarships, and fee waivers for international students.",
-    image: "/TopCountries/countryImages/6.webp",
-    flag: "/TopCountries/flagLogos/6.png",
-    alt: "Golden Gate Bridge",
-    univercities: [{name:"University of Glasgow",image:"/TopCountries/university/41.png"},{name:"University of Birmingham",image:"/TopCountries/university/42.png"},{name:" Kings College London ",image:"/TopCountries/university/43.png"},{name:"The University of Manchester 1824",image:"/TopCountries/university/44.png"},{name:"The University of Edinburgh",image:"/TopCountries/university/45.png"}]
-  },
-  {
-    id: 7,
-    country: "Ireland",
-    description: "High standard of education, vibrant cultural scene, and post-study work opportunities.",
-    image: "/TopCountries/countryImages/7.webp",
-    flag: "/TopCountries/flagLogos/7.png",
-    alt: "New York Skyline",
-    univercities: [{name:"University of Southern Maine",image:"/TopCountries/university/1.png"},{name:" DCU Dublin City University",image:"/TopCountries/university/2.png"},{name:"Trinity College Dublin",image:"/TopCountries/university/3.png"},{name:"University College Cork",image:"/TopCountries/university/4.png"},{name:"UCD Dublin",image:"/TopCountries/university/5.png"}]
-  },
-  {
     id: 8,
     country: "France",
     description: "Renowned for arts and culture, prestigious institutions, and opportunities in fashion, culinary arts, and business.",
@@ -101,15 +111,6 @@ const dummyData: dummyData[] = [
     flag: "/TopCountries/flagLogos/9.png",
     alt: "Statue of Liberty",
     univercities: [{name:"University of Indonesia",image:"/TopCountries/university/61.png"},{name:"Gadjah Mada University",image:"/TopCountries/university/62.png"},{name:"Bandung Institute of Technology",image:"/TopCountries/university/63.png"},{name:"Diponegoro University",image:"/TopCountries/university/64.png"},{name:"Padjadjaran University",image:"/TopCountries/university/65.png"}]
-  },
-  {
-    id: 10,
-    country: "Germany",
-    description: "Strong economy, free or low-cost education, and opportunities in engineering, technology, and research.",
-    image: "/TopCountries/countryImages/10.webp",
-    flag: "/TopCountries/flagLogos/10.png",
-    alt: "Golden Gate Bridge",
-    univercities: [{name:"Frankfurt School of Finance & Management",image:"/TopCountries/university/11.png"},{name:"University of Mannheim",image:"/TopCountries/university/12.png"},{name:"Rwthaachen University",image:"/TopCountries/university/13.png"},{name:"Technical university of Munich",image:"/TopCountries/university/14.png"},{name:"Georg august university",image:"/TopCountries/university/15.png"}]
   },
   {
     id: 11,
@@ -199,7 +200,7 @@ export default function UsaCard() {
           modules={[Navigation, Autoplay]}
           loop={true}
           autoplay={{
-            delay: 2000, // Time in ms between slides (3 seconds)
+            delay: 1000, // Time in ms between slides (3 seconds)
             disableOnInteraction: false, // Keeps autoplay running even when user interacts
           }}
           spaceBetween={20}
