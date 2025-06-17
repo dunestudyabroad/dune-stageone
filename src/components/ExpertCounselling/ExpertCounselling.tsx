@@ -87,7 +87,7 @@ interface SectionProps {
 
 // Reusable Section component with typed props
 const Section: React.FC<SectionProps> = ({ title, items }) => (
-  <div className="mx-auto bg-[#fbf6fe] p-2 lg:p-10 rounded-lg w-full">
+  <div className="mx-auto bg-[#FAF1FD] p-2 lg:p-10 rounded-lg w-full">
     <h1 className="text-xl font-medium mb-5">{title}</h1>
     <ul className="space-y-7">
       {items.map((item, index) => (

@@ -80,15 +80,15 @@ export const InfiniteMovingCards = ({
       >
         {items.map((item) => (
           <li
-            className="relative flex h-full min-h-[150px] items-center justify-center"
+            className="relative flex h-full min-h-[100px] items-center justify-center"
             key={item.imgsrc}
           >
             <Image 
               src={item.imgsrc} 
               alt="imgsrc" 
               className="mx-auto my-auto" 
-              width={150} 
-              height={150}
+              width={100} 
+              height={100}
             />
           </li>
         ))}

@@ -17,6 +17,7 @@ interface Testimonial {
   id: number;
   name: string;
   text: string;
+  country: string;
   avatarUrl: string;
   dataSpeed?: string;
 }
@@ -140,6 +141,7 @@ const TestimonialGrid: React.FC<TestimonialGridProps> = ({
                     name={item.name}
                     text={item.text}
                     avatarUrl={item.avatarUrl}
+                    country={item.country}
                   />
                 </li>
               ))}
@@ -157,6 +159,7 @@ const TestimonialGrid: React.FC<TestimonialGridProps> = ({
                   name={testimonial.name}
                   text={testimonial.text}
                   avatarUrl={testimonial.avatarUrl}
+                  country={testimonial.country }
                 />
               </div>
             ))}
