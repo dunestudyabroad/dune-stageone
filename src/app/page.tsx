@@ -8,6 +8,9 @@ import UsaCard from "@/components/TopCountries/TopCountries";
 import UniversityPartners from "@/components/UniversityPartners/UniversityPartners";
 import { WhyChooseSection } from "@/components/WhyChooseSection/WhyChooseSection";
 import { testimonials } from "@/data/testimonials";
+import PrivacyModal from "@/components/Layout/PrivacyModal";
+
+
 
 // ✅ Lazy-loaded components with optional fallback
 const CertifiedExelence = dynamic(
@@ -66,6 +69,9 @@ export default function Home() {
       <section>
         <LimitedPeriod />
       </section>
+      <section>
+        <PrivacyModal />
+       </section>
     </Layout>
   );
 }
