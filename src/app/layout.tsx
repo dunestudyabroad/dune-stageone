@@ -2,6 +2,7 @@ import './globals.css'
 import LenisProvider from '@/components/LenisProvider'
 import WhatsappChatWidget from '@/components/WhatsAppWidget/WhatsAppWidget';
 import localFont from 'next/font/local'
+import { PopupProvider } from "@/context/PopupContext";
 
 const helveticaNowDisplay = localFont({
   src: [
