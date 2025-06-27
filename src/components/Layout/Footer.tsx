@@ -88,22 +88,22 @@ const Footer = () => {
           <div className="flex justify-center md:justify-start gap-4 mb-4 md:mb-0">
             <Link
               target="_blank"
-              href="https://www.instagram.com/studymetro_mangalore"
+              href="https://www.instagram.com/dunestudymetro_mangalore?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             >
               <Inatagram />
             </Link>
-            <Link target="_blank" href="https://www.linkedin.com">
+            <Link target="_blank" href="https://www.linkedin.com/company/study-metro-mangalore/">
               <LinkedIn />
             </Link>
             <Link
               target="_blank"
-              href="https://www.facebook.com/studymetro.abroad"
+              href="https://www.facebook.com/share/1EcdrNpkNP/?mibextid=wwXIfr"
             >
               <Meta />
             </Link>
             <Link
               target="_blank"
-              href="https://www.youtube.com/channel/UC_EjChebrWmyKsId3cMt-Rw"
+              href="https://youtube.com/@dunestudyabroad?si=CTCfsXeNVSpuJqOQ"
             >
               <Yt />
             </Link>
