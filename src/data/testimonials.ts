@@ -36,15 +36,15 @@ export const testimonials: Testimonial[] = [
     id: 4,
     name: "Bibin",
     text: "From securing my Ireland visa to preparing for IELTS, Study Metro made the process feel easy. Ashvia handled my paperwork like a pro, and Melisha ma’am’s IELTS coaching helped me hit my target score. Radhika ma’am’s leadership shines through in every detail.",
-    avatarUrl: "/avtar.avif",
-    dataSpeed: "0.2",
+    avatarUrl: "/testimonials/bibin.JPG",
+    dataSpeed: "0",
     country:"Ireland"
   },
   {
     id: 5,
     name: "Sana Shaikh",
     text: "I’m so grateful to Study Metro for guiding me through my Canadian student visa process. The team was always on point — offering up-to-date advice, answering my questions, and giving personal attention to my case. I felt supported from start to finish.",
-    avatarUrl:  "/avtar.avif",
+    avatarUrl:  "/testimonials/sana.JPG",
     dataSpeed: "0.2",
     country:"Canada"
   },
@@ -52,8 +52,8 @@ export const testimonials: Testimonial[] = [
     id: 6,
     name: "Karthik N",
     text: "Being a full-time working professional, managing applications and documentation seemed impossible. But my counsellor Reema and the entire Study Metro team made it smooth, stress-free, and perfectly timed. I could focus on work while they handled everything else.",
-    avatarUrl: "/avtar.avif",
-    dataSpeed: "0",
+    avatarUrl: "/testimonials/karthik.JPG",
+    dataSpeed: "0.2",
     country:"Australia"
   },
   {
@@ -61,7 +61,7 @@ export const testimonials: Testimonial[] = [
     name: "Srinika Aniyoor",
     text: "From choosing the right university to helping me settle in abroad, Study Metro stood by me at every step. I never felt alone or confused during the process. Thank you Carol ma’am, Radhika ma’am, and the whole team for your patience and support.",
     avatarUrl: "/testimonials/Neha Bisaralli.jpg",
-    dataSpeed: "0.2",
+    dataSpeed: "0.35",
     country:"Russia"
   },
   
@@ -77,14 +77,14 @@ export const testimonials: Testimonial[] = [
     name: "Aditi Kulkarni",
     text: "I had a wonderful experience with Dune Study Metro! The UK visa process was smooth, thanks to Radhika Ma’am and Sreelakshmi’s constant support and guidance. They were always available, super patient, and genuinely invested in my success. Highly recommended for a hassle-free process! 😊",
     avatarUrl: "/testimonials/Aditi Kulkarni.jpg",
-    dataSpeed: "0.2",
+    dataSpeed: "0.35",
   },
   {
     id: 10,
     name: "Tarun Kumar",
     text: "Study Metro made my study abroad journey stress-free and smooth. Radhika Ma’am was incredibly patient and informative, guiding me through everything—from course selection to visa documentation. Her prompt responses and expert insights made all the difference. Thank you for making the process so easy and comforting!",
     avatarUrl: "/testimonials/Tarun Kumar.jpg",
-    dataSpeed: "0",
+    dataSpeed: "0.2",
   }
   // {
   //   id: 8,

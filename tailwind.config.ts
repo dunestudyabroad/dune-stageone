@@ -6,6 +6,15 @@ const config: Config = {
       fontFamily: {
         helvetica: ['var(--font-helvetica-now)'],
       },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' }, // This works even for reverse
+        },
+      },
+      animation: {
+        scroll: 'scroll var(--animation-duration, 40s) linear infinite',
+      },
     },
   },
   content: [

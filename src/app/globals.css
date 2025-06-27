@@ -181,3 +181,24 @@
   top: 20px !important;
   right: 20px !important;
 }
+lite-youtube {
+  max-width: none !important;
+}
+
+/* Option 2: More specific selector for better specificity */
+.your-container-class lite-youtube {
+  max-width: none;
+}
+
+/* Option 3: If you want a specific width instead */
+lite-youtube {
+  max-width: 100% !important; /* or any specific value you want */
+  border-radius: 20px;
+}
+
+/* globals.css */
+.mask-image-linear-gradient {
+  mask-image: linear-gradient(to right, transparent, white 10%, white 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, white 10%, white 90%, transparent);
+}
+
