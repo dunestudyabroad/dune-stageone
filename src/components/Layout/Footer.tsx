@@ -57,10 +57,10 @@ const Footer = () => {
             </Link>
             <Image
               alt="footer logo 2"
-              width={240}
+              width={200}
               height={240}
               src={logo2}
-              className="hidden md:block"
+              className="hidden md:block pt-2"
             />
           </div>
           <div className="flex justify-center gap-5 md:justify-start mb-6 md:mb-0">
