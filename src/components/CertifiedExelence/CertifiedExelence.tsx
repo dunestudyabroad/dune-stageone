@@ -5,7 +5,7 @@ const CertifiedExelence = () => {
   const rowOne = ["/CertifiedExelence/1.svg", "/CertifiedExelence/2.svg", "/CertifiedExelence/3.svg"];
   const rowTwo = ["/CertifiedExelence/4.svg", "/CertifiedExelence/5.svg", "/CertifiedExelence/6.svg"];
   return (
-    <section className="bg-white overflow-hidden  pt-10">
+    <section className="bg-white overflow-hidden">
       <div className="mx-10 lg:mx-32">
         <h1 className="lg:text-[45px] text-[23px] font-bold my-10 text-center">
           <span className="text-[#CEB3FE]">Certified</span> for Excellence

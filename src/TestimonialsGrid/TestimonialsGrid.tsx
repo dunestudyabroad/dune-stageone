@@ -110,9 +110,9 @@ const TestimonialGrid: React.FC<TestimonialGridProps> = ({
 
       <div
         ref={containerRef}
-        className="bg-[#FEFEFE] mx-auto px-4 sm:px-6 lg:px-8 py-12 transition-opacity duration-1000"
+        className="bg-[#FEFEFE] mx-auto px-4 sm:px-6 lg:px-8 py-20 transition-opacity duration-1000"
       >
-        <h2 className="text-2xl md:text-[44px] font-bold text-center mb-24 lg:mb-36 xl:mb-48">
+        <h2 className="text-2xl md:text-[44px] font-bold text-center mb-16 lg:mb-36 xl:mb-48">
           {title.firstPart}{' '}
           <span className="text-purple-400">{title.highlightedPart}</span>
         </h2>

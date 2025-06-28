@@ -109,13 +109,6 @@ const WhatsappChatWidget = () => {
         .wa-chat-box::after {
           border-width: 0px !important;
         }
-
-        @media (max-width: 768px) {
-          .wa-widget-send-button,
-          .wa-chat-box {
-            display: block !important;
-          }
-        }
       `}</style>
 
       <Script

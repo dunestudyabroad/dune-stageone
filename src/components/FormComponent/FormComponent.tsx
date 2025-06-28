@@ -73,12 +73,13 @@ function FormComponent() {
   return (
     <div className="min-h-screen bg-[#FEFEFE] flex items-center justify-center p-4">
       <div className="w-full max-w-6xl bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col md:flex-row">
-        <div className="md:w-1/2 h-[400px] md:h-[800px] relative">
+        <div className="md:w-1/2 h-[400px] md:h-[800px] m-6 rounded-3xl relative">
           <Image
             src={mapIMage}
             alt="Map Image"
             fill
-            style={{ objectFit: "cover", margin: "15px", borderRadius: "15px" }}
+            className="object-cover  rounded-3xl"
+            style={{  borderRadius: "15px" }}
             onClick={() => window.open("https://maps.app.goo.gl/QdXWXngg1nVq8Vcy7?g_st=aw", "_blank")}
           />
         </div>
