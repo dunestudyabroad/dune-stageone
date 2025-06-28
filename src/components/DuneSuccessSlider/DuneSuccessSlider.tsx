@@ -24,25 +24,7 @@ const DuneSuccessSlider: React.FC = () => {
           />
         </div>
 
-        <div className="absolute bottom-4 md:bottom-8 lg:bottom-20 xl:bottom-2 w-full p-4 xl:p-10 z-10 flex flex-row justify-end md:justify-between">
-          <div className="hidden md:block">
-            {/* Your logo SVG if needed */}
-          </div>
-
-          <div className="flex gap-4">
-            <Link
-              href="https://youtu.be/rv0KerNW4QE?si=ObYcwEiaqF0UD90P"
-              target="_blank"
-            >
-              <button
-                aria-label="Watch the Full Video"
-                className="text-white bg-transparent rounded-full border-white border py-2 px-3 text-sm md:text-base md:py-2.5 md:px-4 hidden md:block cursor-pointer"
-              >
-                Watch the Full Video
-              </button>
-            </Link>
-          </div>
-        </div>
+      
       </div>
     </div>
   );
