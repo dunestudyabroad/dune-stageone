@@ -60,7 +60,7 @@ const Footer = () => {
               width={200}
               height={240}
               src={logo2}
-              className="hidden md:block pt-2"
+              className="hidden md:block pt-4"
             />
           </div>
           <div className="flex justify-center gap-5 md:justify-start mb-6 md:mb-0">
