@@ -11,7 +11,7 @@ export const testimonials: Testimonial[] = [
   {
     id: 1,
     name: "Abhin Kumar",
-    text: "I had an exceptional experience with Dune Study Metro! From university selection to application submission, their team, especially Radhika Ma’am, supported me every step of the way. They were always available—via call, text, or email—and their dedication truly made a difference. I highly recommend them for anyone looking for reliable and personalized study abroad guidance. 🙏🥰",
+    text: "I had an exceptional experience with Dune Study Metro! From university selection to application submission, their team, especially Radhika Ma’am, supported me every step of the way. They were always available—via call, text, or email—and their dedication truly made a difference. I highly recommend them for anyone looking for reliable and personalized study abroad guidance.",
     avatarUrl: "/testimonials/Abhin Kumar.jpg",
     dataSpeed: "0.2",
     country:"United Kingdom"
@@ -75,7 +75,7 @@ export const testimonials: Testimonial[] = [
   {
     id: 9,
     name: "Aditi Kulkarni",
-    text: "I had a wonderful experience with Dune Study Metro! The UK visa process was smooth, thanks to Radhika Ma’am and Sreelakshmi’s constant support and guidance. They were always available, super patient, and genuinely invested in my success. Highly recommended for a hassle-free process! 😊",
+    text: "I had a wonderful experience with Dune Study Metro! The UK visa process was smooth, thanks to Radhika Ma’am and Sreelakshmi’s constant support and guidance. They were always available, super patient, and genuinely invested in my success. Highly recommended for a hassle-free process!",
     avatarUrl: "/testimonials/Aditi Kulkarni.jpg",
     dataSpeed: "0.35",
   },
