@@ -2,7 +2,7 @@ import './globals.css'
 import LenisProvider from '@/components/LenisProvider'
 import WhatsappChatWidget from '@/components/WhatsAppWidget/WhatsAppWidget';
 import localFont from 'next/font/local'
-
+import { GoogleTagManager } from '@next/third-parties/google';
 const helveticaNowDisplay = localFont({
   src: [
     {
@@ -85,6 +85,7 @@ export default function RootLayout({
       <body
       className={`${helveticaNowDisplay.variable} antialiased`}
       >
+        <GoogleTagManager gtmId="GTM-W3KH49BR" />
         <LenisProvider />
         {children}
         <WhatsappChatWidget/>
