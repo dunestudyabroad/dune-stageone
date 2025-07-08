@@ -11,7 +11,6 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  output: 'export',
   trailingSlash: false, // Changed from true to false
   async headers() {
     return [
