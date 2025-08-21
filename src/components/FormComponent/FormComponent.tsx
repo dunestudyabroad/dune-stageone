@@ -42,7 +42,7 @@ function FormComponent() {
       try {
         setIsLoading(true);
 
-        const response = await fetch("https://dune-stageone.vercel.app/api/submitFolder", {
+        const response = await fetch("/api/submitFolder", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
