@@ -8,7 +8,7 @@ import Image from "next/image";
 import mapIMage from "../../../public/formMap/Frame 3384456.avif";
 import { useRouter } from "next/navigation";
 
-function FormComponent() {
+function FormComponent({isbg = false}: {isbg?: boolean}) {
   const [charCount, setCharCount] = useState<number>(0);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const router = useRouter();
@@ -74,7 +74,7 @@ function FormComponent() {
   };
 
   return (
-    <div className="min-h-screen bg-[#FEFEFE] flex items-center justify-center p-4">
+    <div className={`min-h-screen ${isbg?"bg-[#FDFAFE]":"bg-[#FEFEFE]"} flex items-center justify-center p-4`}>
       <div className="w-full max-w-6xl bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col md:flex-row">
         <div className="md:w-1/2 h-[400px] md:h-[800px] m-6 rounded-3xl relative">
           <Image
