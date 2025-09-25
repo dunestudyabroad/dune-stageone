@@ -71,6 +71,24 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center mx-6 md:mx-24 pt-6 md:pt-9 pb-8 md:pb-14">
+  <div className="md:hidden flex justify-center items-center gap-5 md:justify-start mb-6 md:mb-0">
+  <div className="text-[#9583FE] flex items-center text-[13px] text-center md:text-right">
+    <Link href="/about-us" className="cursor-pointer">
+      <p>About Us</p>
+    </Link>
+  </div>
+
+  {/* Vertical Divider */}
+  <div className="w-px h-4 bg-[#9583FE]"></div>
+
+  <div className="text-[#9583FE] flex items-center text-[13px] text-center md:text-right">
+    <Link href="/contact-us" className="cursor-pointer">
+      <p>Contact Us</p>
+    </Link>
+  </div>
+</div>
+
+
           <div className="flex justify-center md:justify-start gap-4 mb-4 md:mb-0">
             <Link
               target="_blank"
@@ -101,8 +119,14 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="text-[#9583FE] text-[13px] text-center md:text-right">
+          <div className="text-[#9583FE] text-[13px] text-center md:text-right ">
             <p>All Rights Reserved</p>
+          </div>
+          <div className="text-[#9583FE] text-[13px] text-center md:text-right hidden md:block mb-2 md:mb-0">
+            <Link href={"/about-us"} className="cursor-pointer"><p>About Us</p></Link>
+          </div>
+          <div className="text-[#9583FE] text-[13px] text-center md:text-right hidden md:block mb-2 md:mb-0">
+            <Link href={"/contact-us"} className="cursor-pointer"><p>Contact Us</p></Link>
           </div>
         </div>
       </div>
