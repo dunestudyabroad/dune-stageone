@@ -51,7 +51,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-  <div className="fixed inset-0 z-50 bg-[#faf2fe] flex flex-col items-center justify-center space-y-8 md:hidden">
+  <div className="fixed inset-0 z-[9999999999999999999999999999999] bg-[#faf2fe] flex flex-col items-center justify-center space-y-8 md:hidden">
     {/* Close Button */}
     <button
       onClick={() => setIsOpen(false)}
