@@ -11,7 +11,9 @@ const AboutRadhikaPage = () => {
             About
             <span className="block text-[#CEB3FE]">Radhika Deemanth Suvarna</span>
           </h2>
-          <p className="mt-4 text-lg md:text-xl font-medium text-[#9A77D8]">Transforming Dreams into International Journeys</p>
+          <p className="mt-4 text-lg md:text-xl font-medium text-[#9A77D8]">
+            Transforming Dreams into International Journeys
+          </p>
         </div>
 
         {/* Two-column content */}
@@ -40,7 +42,7 @@ const AboutRadhikaPage = () => {
           {/* Right Column */}
           <div className="space-y-6 lg:space-y-8">
             <p className="text-[#86868B] text-base sm:text-lg lg:text-xl leading-relaxed">
-              Her mentorship is both comprehensive and personal. She excels at guiding students through the entire process—from identifying best-fit
+              Her mentorship is both comprehensive and personal. She excels at guiding students through the entire process from identifying best-fit
               universities and programs that align with their strengths, to providing hands-on support in developing communication skills and a global
               outlook. Her guidance has been instrumental in shaping the academic and professional success of countless young individuals.
             </p>
@@ -56,6 +58,37 @@ const AboutRadhikaPage = () => {
               global future.
             </p>
           </div>
+        </div>
+
+        {/* Vision & Mission Heading */}
+        <div className="mt-12">
+          <h2 className="text-2xl md:text-[44px] font-bold text-gray-900 leading-snug">
+            Vision & Mission
+          </h2>
+        </div>
+
+        {/* Vision Section */}
+        <div className="mt-6">
+          <h3 className="text-xl md:text-3xl font-bold text-gray-900 leading-snug">
+            <span className="block text-[#CEB3FE]">Vision</span>
+          </h3>
+          <p className="mt-3 text-[#86868B] text-base sm:text-lg lg:text-xl leading-relaxed">
+            To become a globally recognized education consultancy that transforms aspirations into achievements by providing students with seamless access to quality international education.
+          </p>
+        </div>
+
+        {/* Mission Section */}
+        <div className="mt-8">
+          <h3 className="text-xl md:text-3xl font-bold text-gray-900 leading-snug">
+            <span className="block text-[#CEB3FE]">Mission</span>
+          </h3>
+          <ul className="mt-3 list-disc pl-5 md:pl-0 md:list-inside text-[#86868B] text-base sm:text-lg lg:text-xl leading-relaxed space-y-2">
+            <li>To guide students with integrity, transparency, and personalized mentorship throughout their study abroad journey.</li>
+            <li>To partner with reputed universities worldwide, offering diverse and career-oriented academic opportunities.</li>
+            <li>To empower students with the right knowledge, skills, and confidence to thrive in a global environment.</li>
+            <li>To make international education accessible and affordable, ensuring every deserving student can pursue their dream.</li>
+            <li>To create a lasting impact by shaping future leaders who contribute positively to society.</li>
+          </ul>
         </div>
       </div>
     </Layout>
