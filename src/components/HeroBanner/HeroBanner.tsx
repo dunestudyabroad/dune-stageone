@@ -6,6 +6,10 @@ import image from "../../../public/herobanner/homebanner.webp";
 import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
 function HeroBanner() {
+    const getYear = () => {
+        const date = new Date();
+        return date.getFullYear();
+    }
   return (
     <>
       <div className="bg-[#F8F1FF]">
@@ -23,7 +27,7 @@ function HeroBanner() {
           />
           <div className="absolute top-[15%] left-[10%]">
             <h1 className="w-[70%] md:w-[60%] lg:w-[50%] font-helvetica text-[27px] font-extrabold lg:text-[80px] leading-[1] lg:leading-24 text-[#AF9FFF]">
-            Planning to Study Abroad, Get Admission for Intakes 2025
+            Planning to Study Abroad, Get Admission for Intakes {getYear()}
             </h1>
             <ScrollLink
               to="form-section"
